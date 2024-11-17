@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>haich chuluu daavuu</title>
+		<style>
+			body{
+				background-color:red;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				height:90vh;
+			}
+			img{
+				width:32%;
+				cursor:pointer;
+			}
+			.game{
+				background-color:#fff;
+				width:600px;
+				padding:15px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="game">
+			<p class="cPoint">Computer:0</p>
+			<p class="pPoint">player0</p>
+			<img onclick="play('chuluu')" src="https://th.bing.com/th?id=OIF.UNSaD3RvbS%2beFNEaiLUd2g&rs=1&pid=ImgDetMain">
+			<img onclick="play('haich')" src="https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png">
+			<img onclick="play('daavuu')" src="https://th.bing.com/th/id/OIP.bgrzMDgadTRDiPuelJmZUQHaG6?w=860&h=803&rs=1&pid=ImgDetMain">
+			<p class="pChoice">Player choice:</p>
+			<p class="cChoice">Computer choice:</p>
+			<p class="winner">Winner</p>
+			<button onclick="restart()">restart</button>
+		</div>
+		<script src="toys.js"></script>
+	</body>
+</html>
